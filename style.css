@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+   
+    width:100vw;
+    height:100vh;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:100%
+
+}
+h1, h2, h3, h4, h5,h6, p{
+    text-align:left;
+    font-family: 'Timmana', sans-serif;
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+/* =================================================================LADO ESQUERDO*/
+.left{
+    background:#63dc3e;
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    
+    justify-content: center;
+}
+
+.left h1{
+    width:50%;
+    margin:20px 10px 10px;
+    font-size: 30px;
+    line-height:1.1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left h3{
+    width:60%;
+    margin:20px 10px 10px 60px;
+    font-weight: normal;
+    font-family:helvetica;
+    text-align: left;
+    line-height:1.1;
+    
+    justify-content: center;
+    
+}
+
+.borda{
+    width: 50px;
+    border:5px solid black;
+    float:left;
+    margin-left:60px;
+}
+
+/*===================Rigth*/
+.right{
+    background:#f8f8f8;
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.logo_right img {
+    display: block;
+    max-width: 100%;
+    height:auto;
+    width:200px;
+    vertical-align: middle;
+    margin: 150px 0 20px;
+    
+}
+.logo_right{
+    position:relative;
+    min-height:1px;
+    padding-left: 15px;
+    
+}
+
+.login h3{
+    margin:20px 0 10px;
+    font-size:21px;
+    line-height: 1.1;
+    text-align:left;
+    color:#63dc3e;
+    font-family: helvetica;
+
+}
+.border {
+    margin:10px 0 10px 0;
+    border-top:1px solid #63dc3e;
+    width:100%;
+}
+
+.email p, .senha p{
+    font-weight: normal;
+    font-family: helvetica;
+    font-size:14px;
+}
+
+.email input, .senha input{
+    margin:5px 0 5px 0;
+    border:1px solid #63dc3e;
+    width:100%;
+    height:30px;
+    text-align:left;
+    font-size: 14px;
+}
+
+.email input{
+    background: #e8f0fe;
+    background-image: url('https://img.icons8.com/ios-glyphs/30/000000/new-post.png');
+    background-repeat:no-repeat;
+    background-position:cover;
+    padding-left:35px;
+    
+
+}
+
+.senha input{
+     background: #e8f0fe;
+    background-image: url('https://img.icons8.com/material-rounded/24/000000/key--v1.png');
+    background-repeat:no-repeat;
+    padding-left:35px;
+}
+
+.lembrar{
+    font-family:helvetica,sans-serif;
+    font-size:13px;
+    margin:0 0 5px 0;
+    padding:10px 0  20px 0;
+}
+
+.entry{
+    width: 50%;
+    height:40px;
+    margin-left:  25%;
+    padding:10px 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #55dc54;
+    border: none;
+    border-bottom: 3px solid #49bf48;
+}
+
+button{
+    display:inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    color: #ffff;
+    border-radius: 4px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+button:hover{
+    box-shadow: 8px 8px 10px rgba(85,220,84, 0.5);
+}
+
+.link a {
+    margin-top: 10px;
+    color: #49bf48;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+}
+
+.link a:hover{
+    color: black;
+}
